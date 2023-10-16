@@ -1,0 +1,33 @@
+html {
+    background-color:navy;
+    color:white
+}
+header {
+    background-color:blue;
+}
+h1 {
+    color:white
+}
+#smoothJazzBanner {
+    background: rgb(0,5,255);
+    background: linear-gradient(90deg, rgba(0,5,255,1) 0%, rgba(9,9,121,1) 43%, rgba(2,0,36,1) 100%);
+    color:white;
+}
+nav ul {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+nav li {
+    list-style:none;
+}
+nav li a {
+    text-decoration:none;
+    color:white;
+}
+div {
+    width:100px;
+    height:25px;
+    text-align:center;
+    background-color:maroon;
+    color:white;
+}
