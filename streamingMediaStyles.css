@@ -140,13 +140,20 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     color: #590242;
     font-style:italic;
 }
-
-
-#curated  div{
+#playlists section > div {
+    background-color:#0D8DFB;
+    padding: 10px;
+    border-radius:5px;
+}
+#curated div{
     background-color: #030A8C;
     height: auto;
 }
-
+#curated section > div {
+    background-color:#020873;
+    padding: 10px;
+    border-radius:5px;
+}
 .scroll {
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -250,4 +257,5 @@ border-radius: 5px;
         width: 150px;
         float: right;
     }
+
 }
