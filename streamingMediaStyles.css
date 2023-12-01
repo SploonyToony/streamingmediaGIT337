@@ -267,7 +267,6 @@ border-radius: 5px;
         overflow-y: scroll;
         overflow-x:hidden;
         height:475px;
-        max-width:50%;
     }
     #playlists div, #curated div{
         display:inline-block;
@@ -276,5 +275,16 @@ border-radius: 5px;
     #playlists img,#curated img {
         float: left;
         margin-right:20px;
+    }
+    #playlists-block,#curated-block{
+        width:50%;
+    }
+    #plalylists-block{
+        float:left;
+    }
+    #curated-block{
+        float:right;
+        position: relative;
+        bottom: 623px;
     }
 }
