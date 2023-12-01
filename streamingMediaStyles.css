@@ -37,6 +37,10 @@ footer{
     background: rgb(0,5,255);
     background: linear-gradient(90deg, rgba(0,5,255,1) 0%, rgba(9,9,121,1) 43%, rgba(2,0,36,1) 100%);
     color:white;
+    padding-top:5px;
+    padding-bottom:10px;;
+    padding-left:30px;
+    padding-right:30px;
 }
 nav {
     grid-row:1/2;
@@ -243,10 +247,13 @@ border-radius: 5px;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
     [href="#home"]{
-        text-transform: capitalize;
+    text-transform: capitalize;
     font-variant: small-caps;
     font-weight: bold;
     font-size: 30px;
+    position: relative;
+    top:0;
+    left:0px;
     }
     label span, input {
         display: none;
@@ -259,9 +266,15 @@ border-radius: 5px;
     #playlists .scroll, #curated .scroll{
         overflow-y: scroll;
         overflow-x:hidden;
+        height:475px;
+        max-width:50%;
     }
     #playlists div, #curated div{
-        display: grid;
-        max-width: 250px;
+        display:inline-block;
+        height: auto;
+    }
+    #playlists img,#curated img {
+        float: left;
+        margin-right:20px;
     }
 }
