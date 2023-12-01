@@ -255,7 +255,10 @@ border-radius: 5px;
         text-align: center;
         display: block;
         width: 150px;
-        float: right;
     }
-
+    #playlists {
+        display: grid;
+        grid-template-rows: (5,1fr);
+        height: auto;
+    }
 }
