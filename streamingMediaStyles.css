@@ -256,9 +256,12 @@ border-radius: 5px;
         display: block;
         width: 150px;
     }
-    #playlists {
+    #playlists .scroll, #curated .scroll{
+        overflow-y: scroll;
+        overflow-x:hidden;
+    }
+    #playlists div, #curated div{
         display: grid;
-        grid-template-rows: (5,1fr);
-        height: auto;
+        max-width: 250px;
     }
 }
